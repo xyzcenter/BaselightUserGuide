@@ -10,6 +10,12 @@ As this is just a brief introduction to Baselight we won’t be going into much 
 
 
 
+{% page-ref page="starting-up-the-system.md" %}
+
+
+
+
+
 
 
 

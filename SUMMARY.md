@@ -6,4 +6,5 @@
 
 * [Overview](undefined/untitled.md)
 * [Starting up the system](undefined/starting-up-the-system.md)
+* [Creating a new project](undefined/creating-a-new-project.md)
 

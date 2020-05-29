@@ -10,3 +10,17 @@ Once the master node has finished booting it will send a signal to the UI host v
 
 Systems which are based on a Z8 or Z840 HP workstation \(e.g. Baselight ONE and Baselight ASSIST\) are powered on using the button on the front of the workstation:
 
+Once the system is up and running you will need to log in at the Linux login screen.
+
+## Running the Baselight application
+
+The application is launched from the icon which can be found on the Linux desktop.
+
+
+
+ While the software is loading, a splash screen will appear giving you the current software build number.
+
+Once the application has launched you will see a default workspace displayed in the Baselight user interface and the Job Manager opened as a floating window. If your system includes a grading control panel then it should also have been initialised and you should see appropriate labels on its buttons and screens.
+
+
+
