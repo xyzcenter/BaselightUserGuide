@@ -8,22 +8,206 @@ Baselight is a digital non-linear grading system that includes powerful conform 
 
 
 
-Baselight v5 User Guide \(Mac\)
 
-Starting the application
+
+### Starting the application
 
 The application is launched from the icon, which can be found in /Applications/Baselight.  
  While the software is loading, a splash screen will appear giving you the current software build number.
 
+{% hint style="info" %}
 Note that if the software licence has not yet been installed or activated you will be presented with a pop-up licence dialogue box. Please refer to your system Installation Manual for details of installing or updating the application software and the licence.
+{% endhint %}
+
+Baselight 5.3 User Guide \(Mac\)
 
 You will also see one of a series of slides during start-up, highlighting recently-added or little-known features in Baselight. If you click on the slide, the launch sequence is paused and you will be able to cycle through the whole series, as well as hiding a specific slide or displaying hidden slides. To recommence the launch sequence, click Continue Startup.
 
-Hide current feature slide
+![Baselight splash screen displaying key feature slides](../.gitbook/assets/2021-09-29-19.48.09.png)
 
-Cycle through slides
 
-Continue startup
 
-Baselight splash screen displaying key feature slides
+Baselight 5.3 User Guide \(Mac\)
+
+Once the application has launched you will see a default workspace displayed in the Baselight user interface and the Job Manager opened as a floating window. If your system includes a grading control panel then it should also have been initialised and you should see appropriate labels on its buttons and screens.
+
+Baselight 5.3 User Guide \(Mac\)
+
+### Baselight software versions
+
+Baselight 5.3 User Guide \(Mac\)
+
+Software releases are numbered according to their version and build number. The major version is the first number before the point and is referred to as simply the software ‘Version’. For example 5.1.10720 and 5.2.10795 are both ‘Version 5’ software releases. The number after the first point is the ‘minor’ version number, so the examples above are 5.1 and 5.2 releases respectively. The final number after the point is the actual build number and uniquely identifies each software build we release.
+
+
+
+{% hint style="info" %}
+Baselight 5.3 User Guide \(Mac\)
+
+Note that from Version 5 onwards, all minor versions within a major version are compatible with each other in terms of the ability to open scenes saved by a different software build, e.g. Version 5.1 and 5.2 are able to open each other’s scenes. This compatibility extends across all Baselight products including CONFORM and EDITIONS.
+
+Scenes and jobs saved in Version 4 will need to be upgraded before they can be opened in Version 5 - see Opening Scenes from Older Software Versions on page 96.
+{% endhint %}
+
+Baselight 5.3 User Guide \(Mac\)
+
+### Key features
+
+This version of the Baselight manual includes information about the following new features:
+
+
+
+Baselight 5.3 User Guide \(Mac\)
+
+#### Improved trackers
+
+The Baselight trackers now have a simplified user interface. You can also filter motion data for the smoothest track possible, create planes separately and easily share them between trackers, and use custom naming for trackers and planes.
+
+See Trackers on page 533 for more information.
+
+Baselight 5.3 User Guide \(Mac\)
+
+#### Partial conform
+
+In Baselight 5.3, you can conform new media against existing shots in the timeline. In this operation, rather than creating new strips on the timeline, Baselight will overwrite the existing Sequence operators with new ones. Use the powerful filtering in Shots View to select the parts of the timeline to conform, and piece together complex conforms by loading a single edit list and then conforming parts separately.
+
+See Partial conform on page 244 for more information.
+
+Baselight 5.3 User Guide \(Mac\)
+
+#### Lens distortion/correction
+
+Correct – or apply – lens distortion based on analysis of the image or by using presets for common industry lenses. This is useful for preparing plates for VFX, or creative grading effects. You can also use lens distortion/correction in a ‘sandwich’ so that grading operations can be performed on the undistorted image.
+
+See Lens correction and distortion on page 598 for more information.
+
+
+
+Baselight 5.3 User Guide \(Mac\)
+
+#### Consistent spatial operations
+
+Some operators – like shaders, OFX plugins or spatial operations such as Texture and Soften – can behave differently when applied to different image resolutions. If this is the case, you can specify that image processing happens at the working format resolution, rather then the viewing or output resolution.
+
+See Processing Format on page 408 for more information.
+
+
+
+Baselight 5.3 User Guide \(Mac\)
+
+#### Improved looks
+
+Looks now work seamlessly with T-CAM v2 to ensure no restriction on dynamic range. The library of Looks has also been expanded to include even more classics such as ENR.
+
+See Look on page 620 for more information.
+
+Baselight 5.3 User Guide \(Mac\)
+
+Sequence versioning wildcards
+
+Use wildcards when defining the sequence versioning template, so that you can work with versions within date folders. You can set wildcard templates on-the-fly or in Scene Settings View.
+
+See Wildcards on page 255 for more information.
+
+Improved LUT integration
+
+The new LUT operator allows you to set input and output colour spaces for each LUT. You can also apply LUTs embedded in ARRI and RED camera files, and use Media Import Rules so that this happens automatically whenever you add these types of camera file to your timeline.
+
+See LUT Operator on page 621 for more information.
+
+
+
+Baselight 5.3 User Guide \(Mac\)
+
+Gamut alarm
+
+The Compress Gamut operator now includes a Gamut Alarm option, which allows you to pin-point exactly which colours are out-of-gamut based on your current settings. When enabled it shows all unmodified colours in grey – only the out-of-gamut pixels maintain their original colour value.
+
+See Compress Gamut on page 616 for more information.
+
+
+
+Baselight 5.3 User Guide \(Mac\)
+
+Baselight also includes the following key features:
+
+Comprehensive media file format support
+
+Read and render a wide range of media file formats - for a complete list please refer to the Baselight Codec Support datasheet which can be downloaded from our website.
+
+Extensive metadata
+
+During the import process all metadata is read from the source files and imported into the local database. Powerful tools within Baselight provide quick searching, sorting and modifying of the metadata and selected data can subsequently be rendered into output files or exported for use by other systems.
+
+Automatic colour space management
+
+Regardless of the camera it was captured with, all source material is transformed accurately from its native colour space into a common colour space for grading and deliverables can be rendered into different colour spaces according to the requirements of the workflow. These colour space conversions are all performed automatically, saving a huge amount of time and providing more consistent and accurate results.
+
+Full creative toolset
+
+All shots can have full sophisticated looks applied using the same compact grading interface familiar to users of Baselight Editions for Avid and NUKE. Secondary grading features include a range of keyers and shape tools plus matte processing and auto tracking for speeding up advanced operations.
+
+BLG file support
+
+Baselight provides read and write support for BLG files and the Baselight LensTM feature enabling powerful ‘render-less’ workflows throughout the entire post-production pipeline including on-set, dailies, editorial and visual effects departments.
+
+GPU acceleration
+
+All grading operations and image effects are processed using the available system GPU\(s\), improving overall performance and reducing rendering times.
+
+Built-in Scopes
+
+Baselight includes six different tools to help you adjust and QC your deliverables.
+
+Audio syncing
+
+Separately recorded audio files can be automatically synced to multiple source movies in a single operation; semi-automatic and manual syncing tools are also provided.
+
+Baselight 5.3 User Guide \(Mac\)
+
+Simultaneous deliverables
+
+Multiple deliverables can be generated in one pass using Baselight’s powerful render manager. Renders can also be queued and off-loaded to other networked Daylight and Baselight systems.
+
+Import and export of EDLs
+
+Baselight can import material according to a CMX or ALE list and can also export EDLs in the same format, with embedded ASC CDL grading data.
+
+Works directly with FilmLight on-set systems
+
+Baselight can import look metadata directly from FilmLight’s on-set look management system, Prelight.
+
+For more information about the features in Baselight v5, see the Baselight 5.3 datasheet, available from the FilmLight web site.
+
+
+
+Baselight 5.3 User Guide \(Mac\)
+
+### Terminology
+
+Baselight 5.3 User Guide \(Mac\)
+
+Like any specialist system, Baselight uses some of its own nomenclature to describe specific objects and functions. To avoid potential confusion, the following is a brief explanation of some key terms used in this manual.
+
+**Conform** -&gt; The process of assembling image sequences in the timeline according to a list. 
+
+**Cutview -&gt;**Thumbnail representation of the scene. Can be used for navigation and copy-paste operations.
+
+**EDL** **Format** -&gt; Edit Decision List.
+
+**Format** -&gt; The format provides a way for Baselight to store information about a sequence itself-such as the frame rate or pixel aspect ratio-that is not stored within the individual image file.
+
+**Frame** -&gt; The format provides a way for Baselight to store information about a sequence itself-such as the frame rate or pixel aspect ratio-that is not stored within the individual image file.
+
+**Gallery** -&gt; The format provides a way for Baselight to store information about a sequence itself-such as the frame rate or pixel aspect ratio-that is not stored within the individual image file.
+
+**GPU** -&gt; Graphics Processing Unit.
+
+**Histogram** -&gt; RGB histogram display of the frame currently being viewed in the Image Display, which shows the distribution, in 10-bit code values, for each of the red, green and blue channels for the currently displayed frame.
+
+Image Display -&gt; The monitor or projector used to display the images that you are grading. The Image Display is calibrated and controlled by Truelight to guarantee colour accuracy. Note that in multiple-view mode, several Image Windows may be shown in the same Image Display.
+
+
+
+
 
