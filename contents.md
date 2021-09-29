@@ -198,67 +198,73 @@ Directorybrowser  File Browser
 
 
 * The Job Manager 
-Database scene locks       
-Recovering auto-save data 
-Opening Scenes from Older Software Versions  
-Addingadatabasehost     
-CreatinganewJob,FolderandScene    
-Scenelockingmodeindicator 
-Generatingproxiesforascene 
+--Database scene locks       
+--Recovering auto-save data 
+--Opening Scenes from Older Software Versions  
+--Adding a database host     
+--Creating a newJob, Folder and Scene    
+--Scenelocking mode indicator 
+--Generating proxies for a scene 
 * The Scene Settings view
-*Saving and closing a scene
-*Managing scenes
-Moving and renaming scenes and folders Copyingscenesandfolders   
+* Saving and closing a scene
+* Managing scenes
+--Moving and renaming scenes and folders Copying scenes and folders   
 *Database Export and Import
   
 
 --Exporting Scenes and Jobs 
 --Importing Scene and Job Archives   
-*Scene recovery 
+* Scene recovery 
 Recovering deleted scenes and jobs      
 *The Standalone Job Manager Application 
 
+
+
+
+
+
 #Media & Metadata 
-*Overview 
-Media decoding and demosaicing     
-Source material       
-*Sequences and shots 
-Shots           
-*The Input Layer 
-Input layer operators       
-The Sequence operator        
-Multi-channel/tracksourcefiles      
-Splitting imported shots        
-Auto-detectingshotchanges 
-   
+* Overview 
+--Media decoding and demosaicing     
+--Source material       
+* Sequences and shots 
+-Shots           
+* The Input Layer 
+--Input layer operators       
+--The Sequence operator        
+--Multi-channel/tracksourcefiles      
+--Splitting imported shots        
+--Auto-detectingshotchanges 
+* The Scene Container 
+--SettingtheSceneContainer    
+* Metadata 
+--Timecode and Tape ID     
+* Media Management 
+* Media Import Rules 
+* Categories 
+--Strip categories 
+--Defining strip categories     
+--Using categories to control strip operations 
+--Assigning a category to a strip   
+--The default category    
+--Adding a shot comment    
+--Unassigning and deleting strip categories  
+--Using categories     
+* Render-less Workflows
+--Working with ungraded footage   
+--Baselight Editions     
+* Exporting grading information
+--Exporting an EDL      
+--Exporting BLG(BaselightGrade) files   
+--CDL(ColourDecisionList) export   
+--LUT(LookUpTable) Export  
+--Export Stills  
+--Export Mark and Shot Data     
 
 
- The Scene Container 
-SettingtheSceneContainer    
-Metadata 
-TimecodeandTapeID     
-Media Management 
-Media Import Rules 
-Categories 
-Stripcategories 
-Definingstripcategories     
-Using categories to control strip operations 
-Assigningacategorytoastrip   
-Thedefaultcategory    
-Addingashotcomment    
-Unassigning and deleting strip categories  
-Usingcategories     
-Render-less Workflows
-Workingwithungradedfootage   
-BaselightEditions     
-Exporting grading information
-ExportinganEDL      
-ExportingBLG(BaselightGrade)files   
-CDL(ColourDecisionList)export   
-LUT(LookUpTable)Export  
-ExportStills  
-ExportMarkandShotData     
-FLUX Manage 
+
+
+#FLUX Manage 
      
 
 
