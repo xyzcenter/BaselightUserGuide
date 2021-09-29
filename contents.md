@@ -54,58 +54,32 @@
 ## Quick Start
 
 * Starting up the system
-
   -- Running the Baselight application    
-
 * Creating a new project
 * Importing footage
-
   -- Browsing and adding media using FLUX Manage
-
   -- UsingFLUXManagetocopyfootage   
-
 * Playing back the scene
-
   -- Navigation controls
-
   -- Enabling the counter overlay
-
   -- Navigating using the mouse
-
   -- Zooming and panning with the mouse   
-
 * Applying basic grades
-
   -- Checking the colour space journey
-
   -- Adding a grading layer        
-
   -- Adding more layers 
-
   -- Viewing and selecting the layers    
-
 * Working with mixed resolutions 
-
   -- Format mappings         
-
 * Secondary grading 
-
   -- Hue Shift
-
   -- Inside/Outside grading using a matte
-
   -- Grading through a shape
-
 * Working with audio 
-
   -- Scene audio
-
   -- Shot audio
-
 * Rendering and export
-
   -- Rendering movies and sequences 
-
 * Quitting Baselight
 
 ## Setup
@@ -135,36 +109,30 @@
 * Main Menu and Status Information 
   --Main Baselight menu
   --Status information area
-*The Parameters view
+* The Parameters view
  --The Strip Details panel
  --The Stack Manager panel
  --Layer Customisation 
  --The Keyframe bar
 
 
-#UI & Workspaces 
--Overview
+## UI & Workspaces 
+* Overview
 --The Image display  
-
-- Customising workspaces 
+* Customising workspaces 
 --Creating a new workspace      
 --Hiding, inserting  and moving views    
--- Floating views within a workspace    
+--Floating views within a workspace    
 --Managing workspaces        
--- Workspace short cuts 
-
-- Main Menu and Status Information 
+--Workspace short cuts 
+* Main Menu and Status Information 
 -- Main Baselight menu  
 --Status information area 
-      
--The Parameters view 
+* The Parameters view 
 --The Strip Details panel        
 --The Stack Manager panel  
 --Layer Customisation       
 --The Keyframe bar        
-
-
-
 * On-screen controls 
 Buttons           
 Slidersandganging       
@@ -210,17 +178,11 @@ Directorybrowser  File Browser
 * Managing scenes
 --Moving and renaming scenes and folders Copying scenes and folders   
 *Database Export and Import
-  
-
 --Exporting Scenes and Jobs 
 --Importing Scene and Job Archives   
 * Scene recovery 
 Recovering deleted scenes and jobs      
 *The Standalone Job Manager Application 
-
-
-
-
 
 
 #Media & Metadata 
@@ -265,24 +227,19 @@ Recovering deleted scenes and jobs
 
 
 #FLUX Manage 
-     
-
-
-   
-  
- Overview
-Browser/Filterarea     
-Results area       
-Non-mediafiles     
-InformationArea    
-SequenceParametersettings   
-Dualpanelayout    
-Drag-and-drop     
-Selecting source media
-Browsingformedia     
-Including media from multiple sources 
-Previewing media
-Adding media to a scene
+* Overview
+--Browser/Filter area     
+--Results area       
+--Non-media files     
+--Information Area    
+--Sequence Parameter settings   
+--Dual pane layout    
+--Drag-and-drop     
+* Selecting source media
+--Browsing for media     
+--Including media from multiple sources 
+* Previewing media
+* Adding media to a scene
      
  
      
@@ -294,11 +251,12 @@ Three-pointinsert
 Addingmultipleshots    
 InsertingmediaintotheCutsview 
 Inserted media Sequence Parameters 
-Performing an action on selected shots Copying Media
-Converting Media
-Deleting Media
-Right-Click Menu
-Filtering media using FLUX Manage
+* Performing an action on selected shots 
+* Copying Media
+* Converting Media
+* Deleting Media
+* Right-Click Menu
+* Filtering media using FLUX Manage
 
 
 Creatingafilter 
@@ -307,71 +265,66 @@ Manuallyaddingfiltercriteria
 UsingMatchMetadatatocreateafilter   
 CreatingafilterusingthePivotbutton    
 Creating a filter using the filename filter button
-Applying filtered results
-Archiving media used in a scene or job
+* Applying filtered results
+* Archiving media used in a scene or job
    
    
 
 
- Shots View
-Overview
-Selecting shots in the Shots view
-Selecting a group of shots     
-Navigatingthroughagroupofshots    
-ApplyinggradesfromtheShotsview  
-Filtering the shots view
-Locking a filtered list     
-Viewing and editing metadata
-Viewingmetadataformultipleshots   
-Editingshotmetadata    
-SettingScene&Takenumbers    
-Editingmetadataformultipleshots    
-AddingCustomMetadataColumns    
-UsingColumnExpressions    
-Metadatacolumnsettings   
-Sorting the Shots view
-Conform & Consolidate
-Overview
-Supported EDL formats
-Conforming an EDL
-Conformoptions     
-Performing the conform      
-Sourcemediaformats    
-Changingaconform     
-Savingconformoptions      
-Presetconformoptions      
-Checking a conform against a reference edit 
-Using a search filter Reconforming an EDL Partial conform Directory structures
- 
- 
-     
- 
- 
-     
+#Shots View
+* Overview
+* Selecting shots in the Shots view
+--Selecting a group of shots     
+--Navigating through a group of shots    
+--Applying grades from the Shots view  
+* Filtering the shots view
+--Locking a filtered list     
+* Viewing and editing metadata
+--Viewing metadata for multiple shots   
+--Editing shot metadata    
+--Setting Scene & Take numbers    
+--Editing metadata for multiple shots    
+--Adding Custom Metadata Columns    
+--Using Column Expressions    
+--Metadata column settings   
+* Sorting the Shots view
 
 
- Importing graded sequences with BLG files
 
 
- 
- 
-
-InsertingBLGfiles 
-Avid AAF round-trip workflows Consolidating source media
+#Conform & Consolidate
+* Overview
+* Supported EDL formats
+* Conforming an EDL
+--Conformoptions     
+--Performing the conform      
+--Sourcemediaformats    
+--Changingaconform     
+--Savingconformoptions      
+-Presetconformoptions      
+--Checking a conform against a reference edit 
+* Using a search filter 
+* Reconforming an EDL 
+* Partial conform 
+* Directory structures
+* Importing graded sequences with BLG files
+--InsertingBLGfiles 
+* Avid AAF round-trip workflows 
+* Consolidating source media
 Consolidateview 
-Sequence versioning
-  
-  
+* Sequence versioning
+--Conforming with filename versioning
+--Wildcards      
+--Conform for the Open Clip versioning method 
+--FLUX Manage interaction 
+--Versioning options in the input layer    
+--Checking scenes automatically for new versions 
 
- 
- 
-Conforming with filename versioning
-Wildcards      
-Conform for the Open Clip versioning method FLUXManageinteraction 
- 
-Versioningoptionsintheinputlayer    
-Checking scenes automatically for new versions 
-Timeline
+
+
+
+
+#Timeline
 Introduction
 Timeline navigation
 Navigatingbynumbers(gototime)    
