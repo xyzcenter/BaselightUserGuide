@@ -23,7 +23,7 @@ Baselight 5.3 User Guide \(Mac\)
 
 You will also see one of a series of slides during start-up, highlighting recently-added or little-known features in Baselight. If you click on the slide, the launch sequence is paused and you will be able to cycle through the whole series, as well as hiding a specific slide or displaying hidden slides. To recommence the launch sequence, click Continue Startup.
 
-![Baselight splash screen displaying key feature slides](../.gitbook/assets/2021-09-29-19.48.09.png)
+![Baselight splash screen displaying key feature slides](.gitbook/assets/2021-09-29-19.48.09.png)
 
 
 
