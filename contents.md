@@ -6,10 +6,10 @@
 # Introduction
 
 ## Starting the application 
-* Baselight software versions 
-* Key features 
+## Baselight software versions 
+## Key features 
 
-  -- Improved trackers  
+* Improved trackers  
   
   -- Partial conform 
   
