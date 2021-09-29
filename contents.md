@@ -1,51 +1,34 @@
 ## About this guide
-
 * Conventions used in this guide
 * Keyboard shortcuts
 
 # Introduction
-
 ## Starting the application 
 ## Baselight software versions 
 ## Key features 
-
 * Improved trackers  
-  
-  -- Partial conform 
-  
-  -- Lens distortion/correction
-  
-  -- Consistent spatial operations
-  
-  -- Improved looks
-  
-  -- Sequence versioning wildcards
+* Partial conform 
+*  Lens distortion/correction
+*  Consistent spatial operations
+*  Improved looks
+*  Sequence versioning wildcards
+*  Improved LUT integration
+*  Gamut alarm
+*  Comprehensive media file format support      
+*  Extensive metadata       
+*  Automatic colourspace management      
+*  Full creativetool set  
+*  BLG file support        
+*  GPU acceleration 
+*  Built-inScopes     
 
-  -- Improved LUT integration
+  *  Audiosyncing     
 
-  -- Gamut alarm
+  *  Simultaneous deliverables 
 
-  -- Comprehensive media file format support      
+  *  Import and export of EDLs    
 
-  -- Extensive metadata       
-
-  -- Automatic colourspace management      
-
-  -- Full creativetool set  
-
-  -- BLG file support        
-
-  -- GPU acceleration 
-
-  -- Built-inScopes     
-
-  -- Audiosyncing     
-
-  -- Simultaneous deliverables 
-
-  -- Import and export of EDLs    
-
-  -- Works directly with FilmLight on-set systems
+  *  Works directly with FilmLight on-set systems
 
 * Terminology
 
