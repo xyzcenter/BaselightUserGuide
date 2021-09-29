@@ -1,7 +1,8 @@
 # Table of contents
 
-* [베이스라이트 유저 가이드](README.md)
-* [목차](contents.md)
+* [베이스라이트 유저 가이드\(MAC 버전\)](README.md)
+* [CHECK template](check-template.md)
+* [Contents](contents.md)
 
 ## 1장 <a id="chapter-1"></a>
 

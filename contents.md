@@ -1,4 +1,4 @@
-# 목차
+# Contents
 
 Baselight v5 User Guide \(Mac\)
 

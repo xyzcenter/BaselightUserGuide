@@ -2,7 +2,9 @@
 
 
 
-Baselight is a digital non-linear grading system that includes powerful conform and finishing features. Its range of input options, resolution independence, native colour space processing and flexible output renderer, enable operation in any film or video format. The FilmLight-designed hardware control surface provides many workflow enhancements, and the extensible plugin architecture supports a range of built-in and third party productivity tools. Baselight systems can also incorporate a large amount of RAID storage, and deliver finished results as either a set of fully rendered media files or as grade and project metadata in a range of interchange formats including the comprehensive ‘BLG’ format \(see page 145\).
+Baselight 5.3 User Guide \(Mac\)
+
+Baselight is a digital non-linear grading system that includes powerful conform and finishing features. Its range of input options, resolution independence, native colour space processing and flexible output renderer, enable operation in any film or video format. The FilmLight-designed hardware control surface provides many workflow enhancements, and the extensible plugin architecture supports a range of built-in and third party productivity tools. Baselight systems can also incorporate a large amount of RAID storage, and deliver finished results as either a set of fully rendered media files or as grade and project metadata in a range of interchange formats including the comprehensive ‘BLG’ format \(see page 146\).
 
 
 
