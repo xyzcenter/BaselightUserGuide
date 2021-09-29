@@ -5,7 +5,7 @@
 
 # Introduction
 
-* Starting the application 
+## Starting the application 
 * Baselight software versions 
 * Key features 
 
