@@ -13,11 +13,16 @@
 * Baselight software versions 
 * Key features 
 
-  -- Improved trackers    
+  -- Improved trackers  
+  
   -- Partial conform 
+  
   -- Lens distortion/correction
+  
   -- Consistent spatial operations
+  
   -- Improved looks
+  
   -- Sequence versioning wildcards
 
   -- Improved LUT integration
