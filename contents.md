@@ -1,7 +1,5 @@
 # Contents
 
-
-
 ### About this guide
 
 * Conventions used in this guide
@@ -110,8 +108,10 @@
 
 * Quitting Baselight
 
-  **Setup**
+## Setup
 
+* Overview 
+* System setup
 * Overview 
 * System setup
 * The Setups Editor --Display tab --Counters tab --NewScenestab --VTRE Deck Control tab
@@ -119,12 +119,27 @@
 
 ## UI & Workspaces
 
--Overview --The Image display
+-Overview
 
-* Customising workspaces --Creating a new workspace --Hiding, inserting and moving views -- Floating views within a workspace --Managing workspaces -- Workspace short cuts
-* Main Menu and Status Information -- Main Baselight menu --Status information area
+ 
 
--The Parameters view --The Strip Details panel  
+
+
+--The Image display
+
+* Customising workspaces
+  * Creating a new workspace
+  * Hiding, inserting and moving views
+  * Floating views within a workspace
+  * Managing workspaces
+  * Workspace short cuts
+* Main Menu and Status Information 
+  * Main Baselight menu
+  * Status information area
+
+-The Parameters view 
+
+--The Strip Details panel  
 --The Stack Manager panel  
 --Layer Customisation  
 --The Keyframe bar
