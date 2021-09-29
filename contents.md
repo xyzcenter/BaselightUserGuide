@@ -1,11 +1,9 @@
-# Contents
-
-### About this guide
+## About this guide
 
 * Conventions used in this guide
 * Keyboard shortcuts
 
-## Introduction
+# Introduction
 
 * Starting the application 
 * Baselight software versions 
