@@ -91,17 +91,20 @@
 # UI & Workspaces
 ## Overview
   * The Image display
-  
-##  Customising workspaces 
+
+
+## Customising workspaces 
   * Creating a new workspace 
   * Hiding, inserting and moving views 
   * Floating views within a workspace 
   * Managing workspaces 
   * Workspace short cuts
-##  Main Menu and Status Information 
+
+
+## Main Menu and Status Information 
   * Main Baselight menu
   * Status information area
-##  The Parameters view
+## The Parameters view
  * The Strip Details panel
  * The Stack Manager panel
  * Layer Customisation 
