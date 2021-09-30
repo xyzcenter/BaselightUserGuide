@@ -91,6 +91,7 @@
 # UI & Workspaces
 ## Overview
   * The Image display
+  
 ##  Customising workspaces 
   * Creating a new workspace 
   * Hiding, inserting and moving views 
