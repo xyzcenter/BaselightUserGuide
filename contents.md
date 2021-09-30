@@ -869,53 +869,57 @@
 ## Syncing sound to images
 * Syncing audio across multiple shots using timecode  
 * Sync multiple shots using scene & take metadata   
-* Automaticallysyncingnewshots    
+* Automatic ally syncing new shots    
 ## Adjusting the audio sync manually
+
+
+
 
 
 # Text & Subtitles
 ## Overview 
 ## Text
-* Addingatextlayer      
-* Texteffects        
-* Movingtextontheimage       
+* Adding a text layer      
+* Text effects        
+* Moving text on the image       
 * Keyframing text       
 ## Matte Text Mode
 * Adding a text matte       
 ## Text in perspective
-* Settingtheperspectiveplane    
+* Setting the perspective plane    
 ##  Tracking text 
-* Auto-trackingobjects 
+* Auto-tracking objects 
 ## XML Subtitles 
+
 
 
 # Stereo 3D 
 ## Overview 
 ## Setting up your stereoscopic scene 
-* Stereosetups         
-* Activatingastereosetup 
-* Creatingoramendingastereosetup  
+* Stereo setups         
+* Activating a stereo setup 
+* Creating oramending a stereos etup  
 * Supporteddisplaymodes   
 * Amending stereoscopic options for a scene 
-* Conformingastereoscene 
+* Conforming a stereo scene 
 ## Viewing the stereoscopic timeline
-* Thestereoscopicinputlayer    
+* The stereoscopic input layer    
 * Single-anddual-stackmodes    
 * Combining tracks to work in single-stack mode 
 * Separating tracks to work in dual-stack mode 
 * Switching between tracks    
 * Stereocursorproperties   
-Stereoviewinglayouts  
+* Stereoviewinglayouts  
 ## 3D geometry correction
-Automaticgeometryfix   
-Semi-automaticgeometryfix 
+* Automaticgeometryfix   
+* Semi-automaticgeometryfix 
 ## Automatic shading correction
 ## Stereo 3D adjustment tools
 ## Applying the creative grade
-Splitting grades (single-stack mode) 
-Syncingagrade(dual-stackmode) 
-Groupedgrading    
-Using the Gallery for stereoscopic grading
+* Splitting grades (single-stack mode) 
+* Syncingagrade(dual-stackmode) 
+* Groupedgrading    
+* Using the Gallery for stereoscopic grading
 ## Rendering 3D scenes
 ## Using the Disparity Histogram
   
@@ -925,8 +929,8 @@ Using the Gallery for stereoscopic grading
 ## Overview 
 ## Panorama Viewing Mode 
 ## Panorama Sandwich 
-CreatingaPanoramaSandwich
-Panoramaoperatorcontrols:    
+* CreatingaPanoramaSandwich
+* Panoramaoperatorcontrols:    
 
 
 
@@ -935,8 +939,8 @@ Panoramaoperatorcontrols:
 # Scopes 
 ## Overview 
 ## Scope settings 
-Common settings          
-Measuringvaluesinanimage      
+* Common settings          
+* Measuringvaluesinanimage      
 ## Histogram  
 ## RGB Parade  
 ## Y`CbCr Parade  
@@ -952,15 +956,15 @@ Measuringvaluesinanimage
 
 # Rendering & Deliverables 
 ## Overview 
-Multiple simultaneous deliverables     
+* Multiple simultaneous deliverables     
 ## Rendering a scene 
-SettingoptionsintheRenderView    
-Savingthesettingsasarenderpreset      
-PerformingtheRender     
+* SettingoptionsintheRenderView    
+* Savingthesettingsasarenderpreset      
+* PerformingtheRender     
 ## Using the Queue Monitor 
-Checkingtherenderedsequence    
-Rendering multiple deliverables 
-Creatingadeliverableset 
+* Checkingtherenderedsequence    
+* Rendering multiple deliverables 
+* Creatingadeliverableset 
 ## Rendering Stills 
 
 
