@@ -96,6 +96,10 @@ In this chapter we will use the first method to find, select and add media to th
 
 ### Browsing and adding media using FLUX Manage
 
+
+* Browsing and adding media using FLUX Manage
+
+
 The following example assumes that you already have the tutorial footage on your local media RAID, if not, you will need to copy the media over first. If your system does not have any local media storage, or you would prefer to work with media stored on a remote or external volume, then this is also possible \(see the note boxes in this section\). The following steps use FLUX Manage, Baselight’s built-in media management tool:
 
 1. Open FLUX Manage by selecting it from the Views menu at the top of the screen, or by pressing CTRL+B on the keyboard.
