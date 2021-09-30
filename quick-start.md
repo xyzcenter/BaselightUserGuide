@@ -22,9 +22,9 @@ The application is launched from the icon which can be found in the Baselight fo
 
 ₩₩₩₩ Note that if the software licence has not yet been installed or activated you will be presented with a pop-up licence dialogue box. Please refer to Appendix 40 - Software installation & activation for details of installing or updating the application software and activating the licence. ₩₩₩₩
 
-
-
-> Joseph
+{% hint style="info" %}
+joseph
+{% endhint %}
 
 Once the application has launched you will see a default workspace displayed in the Baselight user interface and the Job Manager opened as a floating window. If your system includes a grading control panel then it should also have been initialised and you should see appropriate labels on its buttons and screens.
 
