@@ -1,8 +1,6 @@
 # Quick Start
 
-
-
-Overview
+## Overview
 
 This chapter provides a brief operational overview of Baselight. It is intended as a way to quickly get you up and running, so if you are testing a newly installed system or just eager to get going, then this is a good place to start.
 
@@ -11,20 +9,29 @@ In order to follow the examples, you will need to have access to the ‘Quick St
 As this is just a brief introduction to Baselight we won’t be going into much detail, but all the main workflow steps will be covered in the following topics:
 
 
+--0-- 
+이미지 삽입
+--0-- 
 
 
 
-Starting up the system
+
+
+## Starting up the system
 
 If your Mac is set up with multiple users, please make sure you are logged in as the correct user before starting the application software as this may affect the access you have to certain files and directories on your system.
 
-Running the Baselight application
+* Running the Baselight application
 
 The application is launched from the icon which can be found in the Baselight folder in Applications.
 
- While the software is loading, a splash screen will appear giving you the current software build number.
+-> While the software is loading, a splash screen will appear giving you the current software build number.
 
+₩₩₩₩ 
 Note that if the software licence has not yet been installed or activated you will be presented with a pop-up licence dialogue box. Please refer to Appendix 40 - Software installation & activation for details of installing or updating the application software and activating the licence.
+₩₩₩₩ 
+
+
 
 Once the application has launched you will see a default workspace displayed in the Baselight user interface and the Job Manager opened as a floating window. If your system includes a grading control panel then it should also have been initialised and you should see appropriate labels on its buttons and screens.
 
@@ -34,15 +41,12 @@ The following steps will take you quickly through the process of creating a new 
 
 At this point, having launched the application, you should see the Job Manager window on the screen \(it opens automatically when the application starts up\). If you have closed the window, you can open it again by
 
-
-
-
-
-
-
 pressing CTRL+J on the keyboard or by selecting Job Manager from the Views menu at the top of the main UI monitor – it should look something like the picture below.
 
 
+₩₩₩₩₩₩₩₩ 
+이미지 삽입
+₩₩₩₩₩₩₩₩
 
 
 
@@ -50,30 +54,30 @@ pressing CTRL+J on the keyboard or by selecting Job Manager from the Views menu 
 
 Now follow these steps to create a new job:
 
-1. 1  Click on the actions button at the top of the ‘Job’ column \(the second column\) in the
+1. Click on the actions button at the top of the ‘Job’ column \(the second column\) in the Job Manager.
+2. Select ‘New Job’.
+3. Enter a name for the job and press Enter. Note that in Baselight, a ‘job’ contains all the grading work you do on a single project -> the newly created job will appear in the Job column with its name highlighted, indicating that it is currently selected.
+4. Now click on the actions button at the top of the ‘Scenes’ column \(the next column along\) and select ‘New Scene’. Enter a name for the scene. In Baselight, a scene is equivalent to a single timeline – it does not imply a scene in a script for example.
+5. Click the Scene Template button and select FilmLight Template from the drop-down list.
 
-   Job Manager.
-
-2. 2  Select ‘New Job’.
-3. 3  Enter a name for the job and press Enter. Note that in Baselight, a ‘job’ contains all the grading work you do on a single projectthe newly created job will appear in the Job column with its name highlighted, indicating that it is currently selected.
-4. 4  Now click on the actions button at the top of the ‘Scenes’ column \(the next column along\) and select ‘New Scene’. Enter a name for the scene. In Baselight, a scene is equivalent to a single timeline – it does not imply a scene in a script for example.
-5. 5  Click the Scene Template button and select FilmLight Template from the drop-down list.
-
+₩₩₩₩₩
    Scene Templates provide a way to create a new scene with various parameters and settings already configured. You don’t have to start a new scene using a template but it is a good idea as it leads to consistency between scenes and can save a lot of time setting individual parameters.
 
-6. 6  Click on the Working Format button and choose HD 1920x1080.
-7. 8. 
+₩₩₩₩₩
 
-   1. 7  Set the Working Frame Rate to match the frame rate of your primary deliverables – this would normally also match the frame rate of your source material.
-   2. 8  Save the settings for the new scene and close the window by clicking on the Ok button.
 
+
+6. Click on the Working Format button and choose HD 1920x1080.
+7. Set the Working Frame Rate to match the frame rate of your primary deliverables – this would normally also match the frame rate of your source material.
+8.  Save the settings for the new scene and close the window by clicking on the Ok button.
+
+₩₩₩₩₩₩
       At this point a pop-up box may appear asking you to choose a format for the ‘Per-Job’ gallery for your new job. Galleries are used to save and recall grades – see the Galleries & Cuts View chapter for details. Simply click on the Ok button to close the box and continue.
+₩₩₩₩
+    -> A new scene will now have been added to the job you created – details of the scene are displayed in the Scene Information section at the bottom of the Job Manager. Note that both the job and scene are automatically stored in the database when they are created.
 
-    A new scene will now have been added to the job you created – details of the scene are displayed in the Scene Information section at the bottom of the Job Manager. Note that both the job and scene are automatically stored in the database when they are created.
+   9. You can now close the Job Manager window by clicking on its ‘X’ button at the top right- hand corner, or by pressing CTRL+J on the keyboard.
 
-   9 You can now close the Job Manager window by clicking on its ‘X’ button at the top right- hand corner, or by pressing CTRL+J on the keyboard.
-
-9. 10. 11. 
 
 
 
@@ -85,39 +89,32 @@ Now follow these steps to create a new job:
 Now that you have created a new, empty scene, the next step is to import the footage into the scene. Baselight can read a very wide range of media file formats including movie files and image sequences. Single image frames can also be imported if required \(most still image formats are supported\).
 
 There are two different methods for adding media to a scene:  
-  Manually browsing through source volumes and selecting the material to add.  
-  Using an EDL to ‘conform’ a scene which was edited on another system such as an editing workstation.
+ *Manually browsing through source volumes and selecting the material to add.  
+ *Using an EDL to ‘conform’ a scene which was edited on another system such as an editing workstation.
 
 In this chapter we will use the first method to find, select and add media to the timeline – full details of the EDL conform process can be found in the Conform & Consolidate chapter.
 
-Browsing and adding media using FLUX Manage
+### Browsing and adding media using FLUX Manage
 
 The following example assumes that you already have the tutorial footage on your local media RAID, if not, you will need to copy the media over first. If your system does not have any local media storage, or you would prefer to work with media stored on a remote or external volume, then this is also possible \(see the note boxes in this section\). The following steps use FLUX Manage, Baselight’s built-in media management tool:
 
-1 Open FLUX Manage by selecting it from the Views menu at the top of the screen, or by pressing CTRL+B on the keyboard.
+1. Open FLUX Manage by selecting it from the Views menu at the top of the screen, or by pressing CTRL+B on the keyboard.
 
+ -> The FLUX Manage window will open showing a ‘Browser 1’ tab – similar to the picture below. For a more detailed description of this window please see the FLUX Manage chapter.
 
+2.  Click on the volume selector button to view a drop-down list of all the storage volumes which your Baselight system can access. If your system has local RAID storage this will appear as a volume pre-fixed with the machine name, for example ‘bl01234-images’.
 
-
-
- The FLUX Manage window will open showing a ‘Browser 1’ tab – similar to the picture below. For a more detailed description of this window please see the FLUX Manage chapter.
-
-
-
-
-
-
-
-1. 2  Click on the volume selector button to view a drop-down list of all the storage volumes which your Baselight system can access. If your system has local RAID storage this will appear as a volume pre-fixed with the machine name, for example ‘bl01234-images’.
-
+₩₩₩₩₩
    If your footage is on remote storage such as a SAN or NAS, then the shared volume will also appear in the drop-down list as long as the system has been configured correctly. Note also, that any portable drives plugged into the Baselight system will also appear in this list – please see the Media & Metadata chapter for full details.
+₩₩₩₩₩
 
-2. 3  Select the volume containing the tutorial footage by clicking on it in the list.
 
- The contents of the volume will be listed in the left-hand column, similar to the example
+3.  Select the volume containing the tutorial footage by clicking on it in the list.
+
+-> The contents of the volume will be listed in the left-hand column, similar to the example
 
 above.  
- 4 Click on the ‘tutorials’ folder and then on the ‘quick-start’ folder.
+4. Click on the ‘tutorials’ folder and then on the ‘quick-start’ folder.
 
 
 
@@ -125,68 +122,62 @@ above.
 
 
 
- A list of the media files contained in the folder will appear in the main part of the browser window and thumbnails or details will appear in the lower part of the window \(depending on the setting of the grid and list view buttons\).
+ -> A list of the media files contained in the folder will appear in the main part of the browser window and thumbnails or details will appear in the lower part of the window \(depending on the setting of the grid and list view buttons\).
 
+₩₩₩₩₩
 If you have downloaded the tutorial footage and want to copy it onto the local Baselight storage you can use the copy tool built into FLUX Manage – instructions are included on page 15. Note that this is the preferred way to copy media onto the internal storage as the FLUX Manage tools have been optimised for copying large media files and sequences efficiently while avoiding fragmentation of the file system.
+₩₩₩₩₩
 
-5 Click on the Grid view button \(see page 161\) to display thumbnails for the media files and then click on one of the thumbnails.
 
- The outline of the thumbnail will turn yellow to indicate that it is selected and metadata and other details will appear in the metadata area in the FLUX Manage window. Multiple shots can be selected by holding down CMD and clicking on additional shots to add them to the selection. Note that when multiple shots are selected, summary details will be shown in the metadata area.
+
+5.  Click on the Grid view button \(see page 161\) to display thumbnails for the media files and then click on one of the thumbnails.
+
+-> The outline of the thumbnail will turn yellow to indicate that it is selected and metadata and other details will appear in the metadata area in the FLUX Manage window. Multiple shots can be selected by holding down CMD and clicking on additional shots to add them to the selection. Note that when multiple shots are selected, summary details will be shown in the metadata area.
 
 6 Click on the first thumbnail to select it, then hold down the SHIFT key and click on the last thumbnail.
 
- This will add all the shots in between to the selection and outline them all in yellow. Baselight provides several other methods for selecting and de-selecting a group or
+-> This will add all the shots in between to the selection and outline them all in yellow. 
 
-range of shots – please see the FLUX Manage chapter for details.
+₩₩₩₩₩
+Baselight provides several other methods for selecting and de-selecting a group or range of shots – please see the FLUX Manage chapter for details.
+₩₩₩₩
 
-1. 7  Click on the List view button and then click on the Filename column heading to sort the list of shots into ascending filename order – the sort order is indicated by a downwards pointing arrowhead to the right of the column heading.
-2. 8  Finally, click on the Insert n Sequences At Cursor button at the bottom right-hand corner of the FLUX Manage window.
+7.  Click on the List view button and then click on the Filename column heading to sort the list of shots into ascending filename order – the sort order is indicated by a downwards pointing arrowhead to the right of the column heading.
+8.  Finally, click on the Insert n Sequences At Cursor button at the bottom right-hand corner of the FLUX Manage window.
 
- The selected shots will be added to the scene and will appear in the Timeline.  
- 9 The FLUX Manage window can now be closed by clicking on its ‘X’ button. You can also
-
-toggle the window open and closed using the CTRL+B keyboard shortcut.
-
-
+-> The selected shots will be added to the scene and will appear in the Timeline.  
+9. The FLUX Manage window can now be closed by clicking on its ‘X’ button. You can also toggle the window open and closed using the CTRL+B keyboard shortcut.
 
 
 
 
 
-Using FLUX Manage to copy footage
+
+
+# Using FLUX Manage to copy footage
 
 As mentioned above, FLUX Manage provides tools to copy media between different folders and volumes. If your footage is on a portable drive or a networked storage volume, you can copy it to the local storage on your Baselight system by following the steps below.
 
+1. If you have already added media to your scene from a portable or remote volume you should remove it first to avoid confusion. This can be done now simply by pressing CMD+Z on the keyboard to undo the last action \(which was to add the media to the scene\).
+2. Open FLUX Manage again and select the media you want to copy \(the shots may still be selected from the previous steps\).
+3. Click on the ‘Two panes’ button at the top right corner of the FLUX Manage window: 
+   -> A second browser section will open on the right side of the FLUX Manage window with a ‘Browser 2’ tab selected.
 
-
-
-
-1. 1  If you have already added media to your scene from a portable or remote volume you should remove it first to avoid confusion. This can be done now simply by pressing CMD+Z on the keyboard to undo the last action \(which was to add the media to the scene\).
-2. 2  Open FLUX Manage again and select the media you want to copy \(the shots may still be selected from the previous steps\).
-3. 3  Click on the ‘Two panes’ button at the top right corner of the FLUX Manage window: 
-4.   
-
-    A second browser section will open on the right side of the FLUX Manage window with a ‘Browser 2’ tab selected.
-
-   1. 4  Click on the volume selector button on the right-hand side under the Browser 2 tab and select the internal storage – this will normally be listed as something like ‘bl0123-images’ or ‘Local filesystem’, but the actual volume name will depend on the system configuration.
-   2. 5  Browse to the directory into which you want to copy the footage – if necessary you can create a new directory by clicking on the Create folder button:
+4.  Click on the volume selector button on the right-hand side under the Browser 2 tab and select the internal storage – this will normally be listed as something like ‘bl0123-images’ or ‘Local filesystem’, but the actual volume name will depend on the system configuration.
+5.  Browse to the directory into which you want to copy the footage – if necessary you can create a new directory by clicking on the Create folder button:
 
 
 
 
 
-1. 6  To copy the shots you selected on the left-hand side, simply click-and-drag them across to the appropriate directory on the right.A green outline will appear indicating the destination into which the files will be copied.
-2. 7  As soon as you release the mouse button, or lift up the tablet pen, a ‘Copy Options’ dialogue box will appear. For the purposes of this exercise you can simply click on the Ok button, but for an explanation of the options available please refer to Copying Media in the FLUX Manage chapter.
+6.  To copy the shots you selected on the left-hand side, simply click-and-drag them across to the appropriate directory on the right.A green outline will appear indicating the destination into which the files will be copied.
+7.  As soon as you release the mouse button, or lift up the tablet pen, a ‘Copy Options’ dialogue box will appear. For the purposes of this exercise you can simply click on the Ok button, but for an explanation of the options available please refer to Copying Media in the FLUX Manage chapter.
 
+ -> The copy process will be added to the Baselight system’s media processing queue and will appear in the Operation History section of the FLUX Manage window along with a bar showing its progress.
 
-
-
-
- The copy process will be added to the Baselight system’s media processing queue and will appear in the Operation History section of the FLUX Manage window along with a bar showing its progress.
-
-1. 8  Once the copy process has completed you can switch back to the single pane FLUX Manage view by clicking on the button on the left of the two panes button.
-2. 9  Now that the media files are on the local storage you need to select the local storage volume in the ‘Browser 1’ tab and browse to their location.
-3. 10  Follow the steps on page 14 to select the tutorial footage from its new location on the local image storage and then add it to the scene.
+8.  Once the copy process has completed you can switch back to the single pane FLUX Manage view by clicking on the button on the left of the two panes button.
+9.  Now that the media files are on the local storage you need to select the local storage volume in the ‘Browser 1’ tab and browse to their location.
+10.  Follow the steps on page 14 to select the tutorial footage from its new location on the local image storage and then add it to the scene.
 
 
 
