@@ -1,138 +1,160 @@
-## About this guide
+# contents
+
+### About this guide
+
 * Conventions used in this guide
 * Keyboard shortcuts
 
+## Introduction
 
+### Starting the application
 
-# Introduction
-## Starting the application 
-## Baselight software versions
-## Key features 
+### Baselight software versions
+
+### Key features
+
 * Improved trackers  
 * Partial conform 
-*  Lens distortion/correction
-*  Consistent spatial operations
-*  Improved looks
-*  Sequence versioning wildcards
-*  Improved LUT integration
-*  Gamut alarm
-*  Comprehensive media file format support      
-*  Extensive metadata       
-*  Automatic colourspace management      
-*  Full creativetool set  
-*  BLG file support        
-*  GPU acceleration 
-*  Built-inScopes     
-*  Audiosyncing     
-*  Simultaneous deliverables 
-*  Import and export of EDLs    
-*  Works directly with FilmLight on-set systems
-## Terminology
+* Lens distortion/correction
+* Consistent spatial operations
+* Improved looks
+* Sequence versioning wildcards
+* Improved LUT integration
+* Gamut alarm
+* Comprehensive media file format support      
+* Extensive metadata       
+* Automatic colourspace management      
+* Full creativetool set  
+* BLG file support        
+* GPU acceleration 
+* Built-inScopes     
+* Audiosyncing     
+* Simultaneous deliverables 
+* Import and export of EDLs    
+* Works directly with FilmLight on-set systems
 
+  **Terminology**
 
+## Quick Start
 
-
-
-
-
-# Quick Start
 * Starting up the system
-  *  Running the Baselight application    
-##  Creating a new project
-##  Importing footage
-  *  Browsing and adding media using FLUX Manage
-  *  UsingFLUXManagetocopyfootage   
-##  Playing back the scene
-  *  Navigation controls
-  *  Enabling the counter overlay
-  *  Navigating using the mouse
-  *  Zooming and panning with the mouse   
-##  Applying basic grades
-  *  Checking the colour space journey
-  *  Adding a grading layer        
-  *  Adding more layers 
-  *  Viewing and selecting the layers    
-##  Working with mixed resolutions 
-  *  Format mappings         
-##  Secondary grading 
-  *  Hue Shift
-  *  Inside/Outside grading using a matte
-  *  Grading through a shape
-##  Working with audio 
-  *  Scene audio
-  *  Shot audio
-##  Rendering and export
-  *  Rendering movies and sequences 
-##  Quitting Baselight
+  * Running the Baselight application    
 
+    **Creating a new project**
 
+    **Importing footage**
 
+  * Browsing and adding media using FLUX Manage
+  * UsingFLUXManagetocopyfootage   
 
-# Setup
-##  Overview 
-##  System setup
-##  The Setups Editor 
-  * Display tab 
-  * Counters tab 
-  * New Scenes tab 
-  * VTRE Deck Control tab
-##  Preferences 
-  * Editing Preferences 
-  * Baselight preferences 
-  * Setting Site and Host Preferences
+    **Playing back the scene**
 
+  * Navigation controls
+  * Enabling the counter overlay
+  * Navigating using the mouse
+  * Zooming and panning with the mouse   
 
+    **Applying basic grades**
 
+  * Checking the colour space journey
+  * Adding a grading layer        
+  * Adding more layers 
+  * Viewing and selecting the layers    
 
+    **Working with mixed resolutions**
 
+  * Format mappings         
 
+    **Secondary grading**
 
+  * Hue Shift
+  * Inside/Outside grading using a matte
+  * Grading through a shape
 
-# UI & Workspaces
-## Overview
-  * The Image display
+    **Working with audio**
 
+  * Scene audio
+  * Shot audio
 
-## Customising workspaces 
-  * Creating a new workspace 
-  * Hiding, inserting and moving views 
-  * Floating views within a workspace 
-  * Managing workspaces 
-  * Workspace short cuts
+    **Rendering and export**
 
+  * Rendering movies and sequences 
 
-## Main Menu and Status Information 
-  * Main Baselight menu
-  * Status information area
-## The Parameters view
- * The Strip Details panel
- * The Stack Manager panel
- * Layer Customisation 
- * The Keyframe bar
+    **Quitting Baselight**
 
+## Setup
 
+### Overview
 
+### System setup
 
+### The Setups Editor
 
+* Display tab 
+* Counters tab 
+* New Scenes tab 
+* VTRE Deck Control tab
 
-# UI & Workspaces 
-##  Overview
+  **Preferences**
+
+* Editing Preferences 
+* Baselight preferences 
+* Setting Site and Host Preferences
+
+## UI & Workspaces
+
+### Overview
+
+* The Image display
+
+### Customising workspaces
+
+* Creating a new workspace 
+* Hiding, inserting and moving views 
+* Floating views within a workspace 
+* Managing workspaces 
+* Workspace short cuts
+
+### Main Menu and Status Information
+
+* Main Baselight menu
+* Status information area
+
+  **The Parameters view**
+
+  * The Strip Details panel
+  * The Stack Manager panel
+  * Layer Customisation 
+  * The Keyframe bar
+
+## UI & Workspaces
+
+### Overview
+
 * The Image display  
-##  Customising workspaces 
+
+  **Customising workspaces**
+
 * Creating a new workspace      
 * Hiding, inserting  and moving views    
 * Floating views within a workspace    
 * Managing workspaces        
 * Workspace short cuts 
-##  Main Menu and Status Information 
-*  Main Baselight menu  
+
+  **Main Menu and Status Information**
+
+* Main Baselight menu  
 * Status information area 
-##  The Parameters view 
+
+  **The Parameters view**
+
 * The Strip Details panel        
 * The Stack Manager panel  
 * Layer Customisation       
 * The Keyframe bar        
-##  On-screen controls 
+
+  **On-screen controls**
+
 * Buttons           
 * Slidersandganging       
 * Data entry fields         
@@ -141,33 +163,41 @@
 * Control highlight         
 * Resetting controls          
 * Extendedranges 
-## Zooming and panning in the user interface 
-* Moving the pointer between displays    
-## Thumbnails 
 
-* Thumbnail metadata 
+  **Zooming and panning in the user interface**
+
+* Moving the pointer between displays
+
+  **Thumbnails**
+
+* Thumbnail metadata
 * Navigation, selection and scrubbing     
-##  Selection Methods 
+
+  **Selection Methods**
+
 * Selection using the mouse or pen      
 * Selecting multiple items        
-##  Other User Interface Tools
+
+  **Other User Interface Tools**
+
 * Colour Panel  
 * Text Macros Panel 
 * CharacterPanel  
 * Dialogue boxes 
-##  Directory and File browsers 
+
+  **Directory and File browsers**
+
 * Directory browser  
 * File Browser          
 
+## Jobs & Scenes
 
+### Overview
 
+### Baselight Scenes and Jobs
 
+### The Job Manager
 
-
-# Jobs & Scenes
-##  Overview
-##  Baselight Scenes and Jobs
-##  The Job Manager 
 * Database scene locks       
 * Recovering auto-save data 
 * Opening Scenes from Older Software Versions  
@@ -175,42 +205,60 @@
 * Creating a newJob, Folder and Scene    
 * Scenelocking mode indicator 
 * Generating proxies for a scene 
-##  The Scene Settings view
-##  Saving and closing a scene
-##  Managing scenes
+
+  **The Scene Settings view**
+
+  **Saving and closing a scene**
+
+  **Managing scenes**
+
 * Moving and renaming scenes and folders 
 * Copying scenes and folders   
-## Database Export and Import
+
+  **Database Export and Import**
+
 * Exporting Scenes and Jobs 
 * Importing Scene and Job Archives   
-##  Scene recovery 
+
+  **Scene recovery**
+
 * Recovering deleted scenes and jobs      
-## The Standalone Job Manager Application 
 
+  **The Standalone Job Manager Application**
 
+## Media & Metadata
 
+### Overview
 
-
-
-# Media & Metadata 
-##  Overview 
 * Media decoding and demosaicing     
 * Source material       
-##  Sequences and shots 
+
+  **Sequences and shots**
+
 * Shots           
-##  The Input Layer 
+
+  **The Input Layer**
+
 * Input layer operators       
 * The Sequence operator        
 * Multi-channel/tracksourcefiles      
 * Splitting imported shots        
 * Auto-detectingshotchanges 
-##  The Scene Container 
+
+  **The Scene Container**
+
 * SettingtheSceneContainer    
-##  Metadata 
+
+  **Metadata**
+
 * Timecode and Tape ID     
-##  Media Management 
-##  Media Import Rules 
-##  Categories 
+
+  **Media Management**
+
+  **Media Import Rules**
+
+  **Categories**
+
 * Strip categories 
 * Defining strip categories     
 * Using categories to control strip operations 
@@ -219,22 +267,25 @@
 * Adding a shot comment    
 * Unassigning and deleting strip categories  
 * Using categories     
-##  Render-less Workflows
+
+  **Render-less Workflows**
+
 * Working with ungraded footage   
 * Baselight Editions     
-##  Exporting grading information
+
+  **Exporting grading information**
+
 * Exporting an EDL      
-* Exporting BLG(BaselightGrade) files   
-* CDL(ColourDecisionList) export   
-* LUT(LookUpTable) Export  
+* Exporting BLG\(BaselightGrade\) files   
+* CDL\(ColourDecisionList\) export   
+* LUT\(LookUpTable\) Export  
 * Export Stills  
 * Export Mark and Shot Data     
 
+## FLUX Manage
 
+### Overview
 
-
-# FLUX Manage 
-##  Overview
 * Browser/Filter area     
 * Results area       
 * Non-media files     
@@ -242,44 +293,62 @@
 * Sequence Parameter settings   
 * Dual pane layout    
 * Drag-and-drop     
-##  Selecting source media
+
+  **Selecting source media**
+
 * Browsing for media     
 * Including media from multiple sources 
-##  Previewing media
-##  Adding media to a scene
+
+  **Previewing media**
+
+  **Adding media to a scene**
+
 * Adding a single shot to the timeline  
 * Adding part of a shot 
 * Three-point insert      
 * Adding multiple shots    
 * Inserting media into the Cutsview 
 * Inserted media Sequence Parameters 
-##  Performing an action on selected shots 
-##  Copying Media
-##  Converting Media
-##  Deleting Media
-##  Right-Click Menu
-##  Filtering media using FLUX Manage
+
+  **Performing an action on selected shots**
+
+  **Copying Media**
+
+  **Converting Media**
+
+  **Deleting Media**
+
+  **Right-Click Menu**
+
+  **Filtering media using FLUX Manage**
+
 * Creatinga filter 
 * Using Filter Tiles       
 * Manuallyaddingfiltercriteria    
 * UsingMatchMetadatatocreateafilter   
 * CreatingafilterusingthePivotbutton    
 * Creating a filter using the filename filter button
-##  Applying filtered results
-##  Archiving media used in a scene or job
-   
-   
 
+  **Applying filtered results**
 
-# Shots View
-##  Overview
-##  Selecting shots in the Shots view
+  **Archiving media used in a scene or job**
+
+## Shots View
+
+### Overview
+
+### Selecting shots in the Shots view
+
 * Selecting a group of shots     
 * Navigating through a group of shots    
 * Applying grades from the Shots view  
-##  Filtering the shots view
+
+  **Filtering the shots view**
+
 * Locking a filtered list     
-##  Viewing and editing metadata
+
+  **Viewing and editing metadata**
+
 * Viewing metadata for multiple shots   
 * Editing shot metadata    
 * Setting Scene & Take numbers    
@@ -287,19 +356,17 @@
 * Adding Custom Metadata Columns    
 * Using Column Expressions    
 * Metadata column settings   
-##  Sorting the Shots view
 
+  **Sorting the Shots view**
 
+## Conform & Consolidate
 
+### Overview
 
+### Supported EDL formats
 
+### Conforming an EDL
 
-
-
-# Conform & Consolidate
-##  Overview
-##  Supported EDL formats
-##  Conforming an EDL
 * Conform options     
 * Performing the conform      
 * Source media formats    
@@ -307,16 +374,27 @@
 * Saving conform options      
 * Preset conform options      
 * Checking a conform against a reference edit 
-##  Using a search filter 
-##  Reconforming an EDL 
-##  Partial conform 
-##  Directory structures
-##  Importing graded sequences with BLG files
+
+  **Using a search filter**
+
+  **Reconforming an EDL**
+
+  **Partial conform**
+
+  **Directory structures**
+
+  **Importing graded sequences with BLG files**
+
 * Inserting BLG files 
-##  Avid AAF round-trip workflows 
-##  Consolidating source media
+
+  **Avid AAF round-trip workflows**
+
+  **Consolidating source media**
+
 * Consolidate view 
-##  Sequence versioning
+
+  **Sequence versioning**
+
 * Conforming with filename versioning
 * Wildcards      
 * Conform for the Open Clip versioning method 
@@ -324,20 +402,24 @@
 * Versioning options in the input layer    
 * Checking scenes automatically for new versions 
 
+## Timeline
 
+### Introduction
 
+### Timeline navigation
 
-
-# Timeline
-## Introduction
-## Timeline navigation
-* Navigating by numbers (go to time)    
+* Navigating by numbers \(go to time\)    
 * Scrolling the timeline    
-## Timeline alignment
-## Zooming and panning
+
+  **Timeline alignment**
+
+  **Zooming and panning**
+
 * Zooming the timeline       
 * Panning the timeline    
-## Timeline marks
+
+  **Timeline marks**
+
 * Applying a mark to the timeline    
 * Adding a mark to a specific strip    
 * Setting up the default mark      
@@ -345,7 +427,9 @@
 * Navigating and filtering marks      
 * Using marks to define a playback range   
 * Adding notes to marks     
- ## Timeline editing 
+
+  **Timeline editing**
+
 * Overview  
 * Moving strips         
 * Editing cuts          
@@ -358,401 +442,522 @@
 * Splitting, joining and deleting strips   
 * Deleting a strip
 * Removing sequence gaps       
-## Sorting the timeline 
+
+  **Sorting the timeline**
+
 * Overview  
 * Sorting the timeline
 * Customising the timeline sort
-# Playback & Cursors 
-## Playing back shots 
+
+  **Playback & Cursors**
+
+  **Playing back shots**
+
 * Playbackcontrols 
-## The Image Display 
+
+  **The Image Display**
+
 * Overview
 * Imagedisplaycontrols
 * Otherdisplaysettings
 * Cross-haircursor      
-## Zooming and panning the image 
-##  Overlaying metadata during playback 
+
+  **Zooming and panning the image**
+
+  **Overlaying metadata during playback**
+
 * Full-screen playback        
-## Cursors – Overview 
+
+  **Cursors – Overview**
+
 * Timeandrowcursors
 * Currenttimeposition 
- ## Manipulating cursors 
+
+  **Manipulating cursors**
+
 * Enablingandremovingcursors
 * Theactivecursor 
 * Movingcursors
 * Therowcursor
 * Ganging cursors  
-## Cursor Settings
+
+  **Cursor Settings**
+
 * Cursorsviewoptions 
-## Working with multiple cursors
+
+  **Working with multiple cursors**
+
 * Switching between open scenes
 * Comparing two or more shots
 * Viewing multiple layers in the same stack with wipe mode
 
-## Multiple-view modes
+### Multiple-view modes
+
 * Viewingmultiplecursors
 * Viewing multiple shots with a single cursor 
-## Optimising playback performance
+
+  **Optimising playback performance**
+
 * Usinglowerresolutionproxies
 * Optimiseddecoding    
-## The Baselight Cache
+
+  **The Baselight Cache**
+
 * Inputandintermediatecache    
-* Display(timeline)cache  
+* Display\(timeline\)cache  
 * Globalcachesettings  
 * Scene-specificcachesettings      
-## Snapshot mode 
 
+  **Snapshot mode**
 
+## Layers & Operators
 
+### Overview
 
+### Stacks, layers and strips
 
-
-
-
-# Layers & Operators 
-## Overview 
-## Stacks, layers and strips 
 * Layer numbering  
 * Adding layers 
-## Shots and Stacks
-## Primary and Secondary Layers
-##  The grade stack 
+
+  **Shots and Stacks**
+
+  **Primary and Secondary Layers**
+
+  **The grade stack**
+
 * Processing order
 * Working with layers
 * Bypassing and removing layers
 * Strips
 * Selecting strips 
 * Working with strip selections    
-## Using the Layer View 
-# Basic Grading 
-## Colour grading overview 
+
+  **Using the Layer View**
+
+  **Basic Grading**
+
+  **Colour grading overview**
+
 * Bypassing grading operators 
 * The default grade type     
-## Base Grade 
+
+  **Base Grade**
+
 * Introduction          
 * The controls          
 * ColourMatching       
-## Film Grade 
+
+  **Film Grade**
+
 * Overview  
 * FilmGradeControls       
-## Video Grade 
+
+  **Video Grade**
+
 * Trackball control mode—RGB sliders vs Ball&Master
-*  Region graphs
-*  Working with the Video Grade
-*  Using custom region graphs
-## CDL Grade 
+* Region graphs
+* Working with the Video Grade
+* Using custom region graphs
+
+  **CDL Grade**
+
 * CDLgrading
-*  Exporting a look as ASC CDL Values     
-## Colour Temperature Adjustment 
-##  Curve Grade 
+* Exporting a look as ASC CDL Values     
+
+  **Colour Temperature Adjustment**
+
+  **Curve Grade**
+
 * Selecting curves
-*  Adjusting a curve 
+* Adjusting a curve 
 * HSL curve controls
 * RGB curve controls
 * Pick and point control options
 * Customising the Curve Grade    
-## Hue Shift
+
+  **Hue Shift**
+
 * Hue/Saturation page   
-*   Hue/Value page
-*   Global controls page     
-## Six Vector
+* Hue/Value page
+* Global controls page     
+
+  **Six Vector**
+
 * Colour vector tabs
 * Qualifier
 * Modifier
 * Black/WhiteDesat
 * Customisingthesixvectorcontrols   
-## Technical Grade (legacy)
-## Telecine Grade (legacy)
-## Matching and Comparing Grades
-* Using preset views (panes) to compare shots Using multiple cursors    
-## Trying Different Versions of a Grade
+
+  **Technical Grade \(legacy\)**
+
+  **Telecine Grade \(legacy\)**
+
+  **Matching and Comparing Grades**
+
+* Using preset views \(panes\) to compare shots Using multiple cursors    
+
+  **Trying Different Versions of a Grade**
+
 * Using the Scratchpad
 * Quick-grab and compare mode
 * Reverting the grade
 * Removing looks from the Scratchpad  
-   
 
+## Copy & Paste Operations
 
+### Introduction
 
-
-
-
-
-# Copy & Paste Operations
-## Introduction
 * SourcesandDestinations   
-## Copying Parameters
+
+  **Copying Parameters**
+
 * Copyingkeyframedparameters  
-## Copying strips and stacks
-## Copy and pasting between shots 
-* Using the Dark Blue Square(DBS)
-*  Applying a grade using the DBS
-*  View/Try/Apply 
-## Grouped Grading mode  Multipaste 
 
+  **Copying strips and stacks**
 
+  **Copy and pasting between shots**
 
+* Using the Dark Blue Square\(DBS\)
+* Applying a grade using the DBS
+* View/Try/Apply 
 
+  **Grouped Grading mode  Multipaste**
 
-# Formats 
-## Overview 
-## Input Format 
-## Working Format 
+## Formats
+
+### Overview
+
+### Input Format
+
+### Working Format
+
 * Mixing formats on the timeline     
-## Viewing Format 
-## Render Format 
-## Processing Format 
-## Basic Formats 
+
+  **Viewing Format**
+
+  **Render Format**
+
+  **Processing Format**
+
+  **Basic Formats**
+
 * CreatinganewformatfromaBasicFormat    
-## Format management 
+
+  **Format management**
+
 * Global formats
 * Exporting and Importing formats
 * Factory formats
 * Using Global and Job formats      
-## The Formats Editor 
+
+  **The Formats Editor**
+
 * Editing a format
 * Creating a new format
 * Deleting a format  
 * Hiding formats       
-## Format masks 
+
+  **Format masks**
+
 * Creating a new mask  
 * Duplicating a mask       
- ## Format mappings
+
+  **Format mappings**
+
 * Creating a new mapping
 * Using masks to define the mapping
 * Manually specifying the transform
 * Multiple mappings between formats  
-## Format burnins
+
+  **Format burnins**
+
 * Creating and Editing Burnins
 * Editing Burnins with the Formats editor 
 * Renaming and deleting burnins
 * Editing burnins from the Cursorsview  
 * Available text burnin items  
 
+## Galleries & Cuts View
 
+### Overview
 
+### Galleries
 
-
-
-# Galleries & Cuts View
-## Overview
-## Galleries
 * Working with two Galleries  
 * Gallerytypes
 * Adding galleries to the gallery view
 * Resizing the Gallery 
-* Expanded Gallery workspace    
- ## Grabbing and pasting grades 
+* Expanded Gallery workspace
+
+  **Grabbing and pasting grades**
 
 * Grabbing a shot to the gallery
-*  Applying grades from thegallery
-*  Using gallery quick slots 
-## The Cuts view
+* Applying grades from thegallery
+* Using gallery quick slots 
+
+  **The Cuts view**
+
 * Copying grades between shots in the cuts view 
 * Navigating using the CutsView
 * Re-ordering shots using the CutsView   
-## Creating a group of shots
+
+  **Creating a group of shots**
+
 * Managing groups of shots     
 
+## Colour Space Management
 
+### Overview
 
-
-
-# Colour Space Management
-##  Overview
 * Truelight Colour Spaces
 * Display-referred and scene-referred colour spaces 
 * Working colour space
 * Colour space naming in Baselight
 * Display Rendering Transform
 * Viewing conditions and DRT families   
-## Colour Space Journey
-## Colour space settings
+
+  **Colour Space Journey**
+
+  **Colour space settings**
+
 * Input colour space
 * Stackcolourspace
 * Graderesultcolourspace
 * Viewingcolourspace 
-* Render(output)colourspace
+* Render\(output\)colourspace
 * Masteringcolourspace 
-## The T-CAM workflow 
+
+  **The T-CAM workflow**
+
 * FilmLight:T-Log/E-Gamut    
 * TruelightCAM        
-## Manual colour space conversions 
+
+  **Manual colour space conversions**
+
 * Colourspaceconversion
 * Assertionofcolourspace 
-## Managing colour spaces 
+
+  **Managing colour spaces**
+
 * Addingnewcolourspaces     
-## Working with LUTs 
+
+  **Working with LUTs**
+
 * InputLUT
 * DisplayLUT
 * Clipalarm
 * LUToperator
 * ExportinggradesasLUTs 
 
+## Working with Mattes
 
+### Overview
 
+### Matte operators
 
-
-# Working with Mattes 
-## Overview  
-## Matte operators 
 * Matte channels 
-## Viewing the matte 
-## Combining Mattes 
+
+  **Viewing the matte**
+
+  **Combining Mattes**
+
 * Mattemerge
 * Garbage Matte
 * Combining shapes with keys
 * Extending the matte      
-## Matte tools 
+
+  **Matte tools**
+
 * Gaussian blur  
 * Dilate filter         
 
+## Keyers
 
+### Overview
 
+### Types of keyer
 
+### Applying a key
 
-# Keyers 
-## Overview 
-## Types of keyer 
-## Applying a key 
 * Keyer input reference strip
-## Hue Angle Keyer 
+
+  **Hue Angle Keyer**
+
 * Using the Hue Angle keyer      
 * Use as a luminance keyer       
 * Hue Angle Keyer Parameters 
-## DKey 
+
+  **DKey**
+
 * Keyframing the key        
 * DKey Parameters 
-## Matte RGB Keyer 
+
+  **Matte RGB Keyer**
+
 * Using the MatteRGB as a luminance keyer    
 * Matte RGB Parameters 
-## Matte XYZ Keyer 
+
+  **Matte XYZ Keyer**
+
 * Creating a Matte XYZ ‘world-space’ key      
 * Adjusting the 3D view      
-## Fixing Problems in Keys
 
+  **Fixing Problems in Keys**
 
+## Shapes
 
+### Overview
 
-# Shapes
- ## Overview 
 * Curves vsShapes        
-## Quick shapes  
-## Manually drawn shapes 
+
+  **Quick shapes**
+
+  **Manually drawn shapes**
+
 * Feathering the shape      
-## Combining shapes 
+
+  **Combining shapes**
+
 * Adding shapes
 * Cutting holes in a shape
 * Cloning curves       
-## Animating shapes  
-## Copying and pasting shapes 
+
+  **Animating shapes**
+
+  **Copying and pasting shapes**
+
 * Pasting keyframes to a different shape   
 
+## Keyframes
 
+### Overview
 
-
-# Keyframes 
-## Overview 
 * Keyframe display  
 * Interpolation modes        
-## Adding keyframes 
+
+  **Adding keyframes**
+
 * Disabling keyframe mode      
-## Editing keyframe values 
+
+  **Editing keyframe values**
+
 * Keyframe edit types
 * Modifying keyframes
 * Editing and trimming strips  
 * Deleting keyframes 
-## Copying and moving keyframes
+
+  **Copying and moving keyframes**
+
 * Copying and pasting keyframe values   
 * Moving keyframes    
-## Keyframing shapes
+
+  **Keyframing shapes**
+
 * Modifying and deleting shape keyframes 
 * Copying and pasting shape keyframe parameters 
-## Changing the global default keyframing mode
- 
- 
 
+  **Changing the global default keyframing mode**
 
+## Trackers
 
- # Trackers
-## Overview
-## Point trackers
+### Overview
+
+### Point trackers
+
 * CreatingaOnePointTrack
 * TwoPointTracks
 * Repositioningreferencepoints
 * Smoothingthetrack     
-## Area tracker
-## Perspective tracking
+
+  **Area tracker**
+
+  **Perspective tracking**
+
 * Creatingaperspectiveplane
 * Trackingtheperspectiveplane    
-## Editing and filtering track data
+
+  **Editing and filtering track data**
+
 * Filtering track data
 * Modifying the input to the tracker
 * Interpolation between and extrapolation of results points
 * Adjusting the object position relative to a track 
 * Detaching an object from a track 
 
+## Compositing & Transitions
 
+### Overview
 
- 
-# Compositing & Transitions
-## Overview
-## Compositing mode
- 
+### Compositing mode
+
 * Background Replacement   
 * The compositing layer
 * Compositing a foreground image
 * Creating a matte from a foreground shape 
 * Creating a matte from a foreground alpha channel 
-* Compositing with OpenEXR files    
-## Layer result blending
+* Compositing with OpenEXR files
 
-* Overview  
+  **Layer result blending**
+
+* Overview
 * Choosing the result blending source
 * Blend source selection
 * Mattes and the blend controls panel
 * Blend modes 
-## Blend strips
-## Dissolves
+
+  **Blend strips**
+
+  **Dissolves**
+
 * Manually inserting a dissolve
 * Creating a dissolve between two stacks
 * Adding a dissolveto a single stack   
-## Wipe transitions
+
+  **Wipe transitions**
+
 * Creating a wipe transition
 * Using shapes to create a wipe   
 * Producing a coloured edge wipe effect 
-## OFX Transition
 
+  **OFX Transition**
 
+## Transforms & Warps
 
+### Overview
 
+### Transform operator
 
-
-# Transforms & Warps
-## Overview
-## Transform operator
 * Inserting a transform operator in the stack  
 * Image Transform control panel
 * Camera adjustments
 * Keyframed transforms
-## Stabilisation
+
+  **Stabilisation**
+
 * Restoringmotion  
 * Modifyingorremovingstabilisation   
-## Perspective transform 
+
+  **Perspective transform**
+
 * Applyingaperspectivetransform
 * Perspective tracking
 * Addingmotionblur 
 
-## Transforms in compositing layers 
+### Transforms in compositing layers
+
 * Croppingtheforegroundimage     
-## Grid Warp 
+
+  **Grid Warp**
+
 * Setting up a Source and Destination grid
 * Gridpointhandles         
 * Adding/removinggridpoints
 * Selectingmultiplegridpoints
 * Tracking grid warp         
-       
-## Lens correction and distortion
+
+### Lens correction and distortion
+
 * Applyingamanuallenscorrection
 * Usingexistingpresets
 * Creatingyourownpresets
@@ -760,16 +965,20 @@
 * Copying correction/distortion between shots
 * Usingacorrection‘sandwich’   
 * Advanceddistortionparameters  
-## Inside/outside layer transforms
-## Transforming non-image layers
+
+  **Inside/outside layer transforms**
+
+  **Transforming non-image layers**
+
 * Transforming a matte
 * Transformingapaintlayer   
 
+## Advanced Grading
 
+### Overview
 
-# Advanced Grading
-## Overview
-## Relight
+### Relight
+
 * Stackpositioning    
 * Settingscale
 * Placingalightsource
@@ -778,135 +987,195 @@
 * Otherlightsettings
 * Specularhighlights
 * Pointcloud       
-## Compress Gamut
-## Boost Colour
-## Boost Contrast
-## Boost Shadows
-## Boost Range
-## Look
-## LUT Operator
-## ARRI Look
-## Texture Highlight
-## Truelight Operator
 
+  **Compress Gamut**
 
+  **Boost Colour**
 
+  **Boost Contrast**
 
-# Other Colour Operators
-## Overview
-## Colour Cross-talk 
-## Colour Matrix
-##  EXR Exposure
-##   Shuffle
-# Image Filters & Effects
-## Overview 
-## Add Grain
-## DFuse
-## Glow
-## OFX Filter
-## Shaders 
-## Sharpen
-## Soften
-## Median
-## Texture Blend 
-## Texture Equaliser 
-## Motion Blur
-# Image Repair Tools
-## Overview
-##  Denoise 
+  **Boost Shadows**
+
+  **Boost Range**
+
+  **Look**
+
+  **LUT Operator**
+
+  **ARRI Look**
+
+  **Texture Highlight**
+
+  **Truelight Operator**
+
+## Other Colour Operators
+
+### Overview
+
+### Colour Cross-talk
+
+### Colour Matrix
+
+### EXR Exposure
+
+### Shuffle
+
+## Image Filters & Effects
+
+### Overview
+
+### Add Grain
+
+### DFuse
+
+### Glow
+
+### OFX Filter
+
+### Shaders
+
+### Sharpen
+
+### Soften
+
+### Median
+
+### Texture Blend
+
+### Texture Equaliser
+
+### Motion Blur
+
+## Image Repair Tools
+
+### Overview
+
+### Denoise
+
 * How does it work?
 * Spatial filtering
 * Temporal filtering
 * Using Denoise
 * Tips for using Denoise      
-## Temporal Degrain 
-## Deflicker 
+
+  **Temporal Degrain**
+
+  **Deflicker**
+
 * Howitworks        
-## Streak Removal  
-## DSpot  
-## Switch Dust  
-## Dustbusting 
 
+  **Streak Removal**
 
+  **DSpot**
 
+  **Switch Dust**
 
+  **Dustbusting**
 
+## Paint
 
+### Overview
 
-# Paint 
-## Overview 
-## Adding a paint layer 
-## Clone painting 
+### Adding a paint layer
+
+### Clone painting
+
 * Changingthecloneoffset       
 * Drawinglines  
 * Modifyingpaintstrokes    
 * Erasingclonepaintstrokes  
 * Paintingwithatimeoffset     
-## Painting with a colour 
+
+  **Painting with a colour**
+
 * Modifying and erasing colour paint strokes     
-## Saving and recalling brushes 
+
+  **Saving and recalling brushes**
+
 * Settingadefaultbrush     
-## Working with paint layers 
+
+  **Working with paint layers**
+
 * Choosingtheclonepaintsource      
-## Keyframing paint strokes 
-## Dustbusting mode 
-## Blending paint into your picture 
+
+  **Keyframing paint strokes**
+
+  **Dustbusting mode**
+
+  **Blending paint into your picture**
+
 * Paintexposure       
- ## Matte Paint Mode 
+
+  **Matte Paint Mode**
+
 * Addingapaintmatte  
 * Modifyingapaintmatte        
 * Paintmattelayers       
-## Painting in perspective 
+
+  **Painting in perspective**
+
 * Settingtheperspectiveplane      
-## Transforming and tracking paint layers 
+
+  **Transforming and tracking paint layers**
+
 * Manuallytransformingpaintlayers    
 * Adding keyframes          
 * Auto-trackingobjects 
 
+## Working with Audio
 
+### Overview
 
+### Audio output and monitoring
 
+### Syncing sound to images
 
-# Working with Audio
-## Overview
-## Audio output and monitoring
-## Syncing sound to images
 * Syncing audio across multiple shots using timecode  
 * Sync multiple shots using scene & take metadata   
 * Automatic ally syncing new shots    
-## Adjusting the audio sync manually
 
+  **Adjusting the audio sync manually**
 
+## Text & Subtitles
 
+### Overview
 
+### Text
 
-# Text & Subtitles
-## Overview 
-## Text
 * Adding a text layer      
 * Text effects        
 * Moving text on the image       
 * Keyframing text       
-## Matte Text Mode
+
+  **Matte Text Mode**
+
 * Adding a text matte       
-## Text in perspective
+
+  **Text in perspective**
+
 * Setting the perspective plane    
-##  Tracking text 
+
+  **Tracking text**
+
 * Auto-tracking objects 
-## XML Subtitles 
 
+  **XML Subtitles**
 
+## Stereo 3D
 
-# Stereo 3D 
-## Overview 
-## Setting up your stereoscopic scene 
+### Overview
+
+### Setting up your stereoscopic scene
+
 * Stereo setups         
 * Activating a stereo setup 
 * Creating oramending a stereos etup  
 * Supporteddisplaymodes   
 * Amending stereoscopic options for a scene 
 * Conforming a stereo scene 
-## Viewing the stereoscopic timeline
+
+  **Viewing the stereoscopic timeline**
+
 * The stereoscopic input layer    
 * Single-anddual-stackmodes    
 * Combining tracks to work in single-stack mode 
@@ -914,154 +1183,195 @@
 * Switching between tracks    
 * Stereocursorproperties   
 * Stereoviewinglayouts  
-## 3D geometry correction
+
+  **3D geometry correction**
+
 * Automaticgeometryfix   
 * Semi-automaticgeometryfix 
-## Automatic shading correction
-## Stereo 3D adjustment tools
-## Applying the creative grade
-* Splitting grades (single-stack mode) 
-* Syncingagrade(dual-stackmode) 
+
+  **Automatic shading correction**
+
+  **Stereo 3D adjustment tools**
+
+  **Applying the creative grade**
+
+* Splitting grades \(single-stack mode\) 
+* Syncingagrade\(dual-stackmode\) 
 * Groupedgrading    
 * Using the Gallery for stereoscopic grading
-## Rendering 3D scenes
-## Using the Disparity Histogram
-  
 
+  **Rendering 3D scenes**
 
-# 360 Video 
-## Overview 
-## Panorama Viewing Mode 
-## Panorama Sandwich 
+  **Using the Disparity Histogram**
+
+## 360 Video
+
+### Overview
+
+### Panorama Viewing Mode
+
+### Panorama Sandwich
+
 * CreatingaPanoramaSandwich
 * Panoramaoperatorcontrols:    
 
+## Scopes
 
+### Overview
 
+### Scope settings
 
-
-# Scopes 
-## Overview 
-## Scope settings 
 * Common settings          
 * Measuringvaluesinanimage      
-## Histogram  
-## RGB Parade  
-## Y`CbCr Parade  
-## Luma Waveform  
-## Vectorscope  
-## Chromaticity Mode 
 
+  **Histogram**
 
+  **RGB Parade**
 
+  **Y\`CbCr Parade**
 
+  **Luma Waveform**
 
+  **Vectorscope**
 
+  **Chromaticity Mode**
 
-# Rendering & Deliverables 
-## Overview 
+## Rendering & Deliverables
+
+### Overview
+
 * Multiple simultaneous deliverables     
-## Rendering a scene 
+
+  **Rendering a scene**
+
 * SettingoptionsintheRenderView    
 * Savingthesettingsasarenderpreset      
 * PerformingtheRender     
-## Using the Queue Monitor 
+
+  **Using the Queue Monitor**
+
 * Checkingtherenderedsequence    
 * Rendering multiple deliverables 
 * Creatingadeliverableset 
-## Rendering Stills 
 
+  **Rendering Stills**
 
+## Creating Reports
 
+### Overview
 
+### Creating a Report Template
 
-
-# Creating Reports 
-## Overview  
-## Creating a Report Template 
 * SubstitutionCodes       
-## Exporting a Report 
 
+  **Exporting a Report**
 
-# DCP and IMF Creation 
-## Overview 
+## DCP and IMF Creation
+
+### Overview
+
 * TheDigitalCinemaPackage      
 * TheInteroperableMasterFormat    
-## Creating a Digital Cinema Package 
+
+  **Creating a Digital Cinema Package**
+
 * Encodingoptions  
 * Rendersettings        
 * DCPsettings         
 * AddingreelstotheDCP        
 * PKL settings           
 * RenderingtheDCP       
-## Checking a DCP in Baselight 
+
+  **Checking a DCP in Baselight**
+
 * OpeningaDCPinBaselight 
-## Creating an encrypted DCP 
+
+  **Creating an encrypted DCP**
+
 * Settingupadefaultcertificate      
-* CreatingtheKDM(s) 
-## Creating KDMs for an existing DCP 
+* CreatingtheKDM\(s\) 
+
+  **Creating KDMs for an existing DCP**
+
 * IssuingKDMsfornewrecipients     
-## Creating an IMF package 
+
+  **Creating an IMF package**
+
 * Encodingoptions  
 * Rendersettings        
 * IMFsettings          
 * Rendering the IMF         
 
-##  Creating a supplemental IMF package 
+### Creating a supplemental IMF package
+
 * Preparing a scene to create a supplemental IMF package  
 * SupplementalIMFandDolbyVision      
 * Encodingoptions  
 * Render and IMF settings         
 * RenderingthesupplementalIMF    
 
+## Workflow Management
 
+### Overview
 
+### Remote grading
 
-
-# Workflow Management 
-## Overview 
-## Remote grading 
 * Enablingremotegrading       
 * Switchingcontroltoanothersystem      
-## Using the Client View 
+
+  **Using the Client View**
+
 * Navigating the Client View        
 * BaselightInteraction       
 * StoppingtheClientView      
-## Render-less Workflows 
+
+  **Render-less Workflows**
+
 * Workingwithungradedfootage      
 * BaselightEditions        
 
+## Dolby Vision
 
+### Overview
 
-# Dolby Vision 
-## Overview 
-## Setting up your Dolby Vision project 
+### Setting up your Dolby Vision project
+
 * FilmLight 
 * ACES      
 * ARRI ALF-2
 * REDIPP     
-## TV SDR trims via the Dolby Software CMU 
-## Dissolves
-## Viewing Colour Space
-## Remastering HDR content for Dolby Vision
--               
--   
-# Third Party Control Panels 
-## Euphonix Avid Artist Color Panel 
+
+  **TV SDR trims via the Dolby Software CMU**
+
+  **Dissolves**
+
+  **Viewing Colour Space**
+
+  **Remastering HDR content for Dolby Vision**
+
+* * **Third Party Control Panels**
+
+  **Euphonix Avid Artist Color Panel**
+
 * Connectingandconfiguringthepanel     
 * Avid Artist Color controls         
 * Trackballs          
 * CurveGradeoperator  
 * Shapeoperator 
-## Avid Artist Transport device 
-## Tangent Wave panel 
-## Tangent Element panels 
+
+  **Avid Artist Transport device**
+
+  **Tangent Wave panel**
+
+  **Tangent Element panels**
+
 * Element-Tk:Trackerball  
 * Element-Bt:Button  
 * Element-Kb:Knob         
 * Element-Mf:Multifunction
 
-## JL Cooper Spectrum  
+### JL Cooper Spectrum
+
 * MCS Jog/shuttle controller 
 * Buttonsonthejog/shuttlecontroller           
-  
+
